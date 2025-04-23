@@ -21,7 +21,7 @@
 				return link;
 			})
 			.then((link) => {
-				fetch("http://localhost:8080/", {
+				fetch("https://givemeyourdata.onrender.com/", {
 					method: "POST",
 					headers: {
 						"Content-Type":
