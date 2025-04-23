@@ -6,6 +6,7 @@ const dotenv = require("dotenv").config()
 const { Schema } = mongoose;
 const cors = require("cors")
 
+const port = const PORT = process.env.PORT || 8080
 const app = express()
 app.use(cors())
 app.use(express.json())
